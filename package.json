@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "first project of nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huydevplus/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "f8"
+  ],
+  "author": "huytran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huydevplus/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/huydevplus/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
